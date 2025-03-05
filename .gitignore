@@ -1,0 +1,39 @@
+# Xcode e macOS
+.DS_Store
+*.swp
+*.lock
+xcuserdata/
+DerivedData/
+.idea/
+xcdebugger/
+
+# Swift Package Manager
+/.swiftpm
+/Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Archivio e build
+*.xcarchive
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Firebase e Google Services
+GoogleService-Info.plist
+
+# Ambiente
+.env
+*.xcworkspace/
+*.xcconfig

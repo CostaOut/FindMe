@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650B14412D785B3C00F647BC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 650B14402D785B3C00F647BC /* Alamofire */; };
+		650B14472D785B4600F647BC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 650B14462D785B4600F647BC /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		655508822D771CBD0046A34E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655508692D771CBC0046A34E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655508702D771CBC0046A34E;
+			remoteInfo = FindMe;
+		};
+		6555088C2D771CBD0046A34E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655508692D771CBC0046A34E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655508702D771CBC0046A34E;
+			remoteInfo = FindMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		650B14452D785B3C00F647BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650B144B2D785B4600F647BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		655508712D771CBC0046A34E /* FindMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		655508812D771CBD0046A34E /* FindMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6555088B2D771CBD0046A34E /* FindMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		650B14502D78607500F647BC /* Exceptions for "FindMe" folder in "FindMe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 655508702D771CBC0046A34E /* FindMe */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		655508732D771CBC0046A34E /* FindMe */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				650B14502D78607500F647BC /* Exceptions for "FindMe" folder in "FindMe" target */,
+			);
+			path = FindMe;
+			sourceTree = "<group>";
+		};
+		655508842D771CBD0046A34E /* FindMeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FindMeTests;
+			sourceTree = "<group>";
+		};
+		6555088E2D771CBD0046A34E /* FindMeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FindMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6555086E2D771CBC0046A34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650B14472D785B4600F647BC /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6555087E2D771CBD0046A34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650B14412D785B3C00F647BC /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655508882D771CBD0046A34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650B143F2D785B3C00F647BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		655508682D771CBC0046A34E = {
+			isa = PBXGroup;
+			children = (
+				655508732D771CBC0046A34E /* FindMe */,
+				655508842D771CBD0046A34E /* FindMeTests */,
+				6555088E2D771CBD0046A34E /* FindMeUITests */,
+				650B143F2D785B3C00F647BC /* Frameworks */,
+				655508722D771CBC0046A34E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655508722D771CBC0046A34E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655508712D771CBC0046A34E /* FindMe.app */,
+				655508812D771CBD0046A34E /* FindMeTests.xctest */,
+				6555088B2D771CBD0046A34E /* FindMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655508702D771CBC0046A34E /* FindMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655508952D771CBD0046A34E /* Build configuration list for PBXNativeTarget "FindMe" */;
+			buildPhases = (
+				6555086D2D771CBC0046A34E /* Sources */,
+				6555086E2D771CBC0046A34E /* Frameworks */,
+				6555086F2D771CBC0046A34E /* Resources */,
+				650B144B2D785B4600F647BC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				655508732D771CBC0046A34E /* FindMe */,
+			);
+			name = FindMe;
+			packageProductDependencies = (
+				650B14462D785B4600F647BC /* Alamofire */,
+			);
+			productName = FindMe;
+			productReference = 655508712D771CBC0046A34E /* FindMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		655508802D771CBD0046A34E /* FindMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655508982D771CBD0046A34E /* Build configuration list for PBXNativeTarget "FindMeTests" */;
+			buildPhases = (
+				6555087D2D771CBD0046A34E /* Sources */,
+				6555087E2D771CBD0046A34E /* Frameworks */,
+				6555087F2D771CBD0046A34E /* Resources */,
+				650B14452D785B3C00F647BC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655508832D771CBD0046A34E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				655508842D771CBD0046A34E /* FindMeTests */,
+			);
+			name = FindMeTests;
+			packageProductDependencies = (
+				650B14402D785B3C00F647BC /* Alamofire */,
+			);
+			productName = FindMeTests;
+			productReference = 655508812D771CBD0046A34E /* FindMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6555088A2D771CBD0046A34E /* FindMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6555089B2D771CBD0046A34E /* Build configuration list for PBXNativeTarget "FindMeUITests" */;
+			buildPhases = (
+				655508872D771CBD0046A34E /* Sources */,
+				655508882D771CBD0046A34E /* Frameworks */,
+				655508892D771CBD0046A34E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6555088D2D771CBD0046A34E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6555088E2D771CBD0046A34E /* FindMeUITests */,
+			);
+			name = FindMeUITests;
+			packageProductDependencies = (
+			);
+			productName = FindMeUITests;
+			productReference = 6555088B2D771CBD0046A34E /* FindMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655508692D771CBC0046A34E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					655508702D771CBC0046A34E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					655508802D771CBD0046A34E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 655508702D771CBC0046A34E;
+					};
+					6555088A2D771CBD0046A34E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 655508702D771CBC0046A34E;
+					};
+				};
+			};
+			buildConfigurationList = 6555086C2D771CBC0046A34E /* Build configuration list for PBXProject "FindMe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655508682D771CBC0046A34E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				650B143E2D7859A200F647BC /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 655508722D771CBC0046A34E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655508702D771CBC0046A34E /* FindMe */,
+				655508802D771CBD0046A34E /* FindMeTests */,
+				6555088A2D771CBD0046A34E /* FindMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6555086F2D771CBC0046A34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6555087F2D771CBD0046A34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655508892D771CBD0046A34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6555086D2D771CBC0046A34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6555087D2D771CBD0046A34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655508872D771CBD0046A34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		655508832D771CBD0046A34E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655508702D771CBC0046A34E /* FindMe */;
+			targetProxy = 655508822D771CBD0046A34E /* PBXContainerItemProxy */;
+		};
+		6555088D2D771CBD0046A34E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655508702D771CBC0046A34E /* FindMe */;
+			targetProxy = 6555088C2D771CBD0046A34E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		655508932D771CBD0046A34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 655508732D771CBC0046A34E /* FindMe */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		655508942D771CBD0046A34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 655508732D771CBC0046A34E /* FindMe */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655508962D771CBD0046A34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 655508732D771CBC0046A34E /* FindMe */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindMe/Preview Content\"";
+				DEVELOPMENT_TEAM = XB2LCH63G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindMe/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Questa app utilizza la tua posizione per mostrarti sulla mappa ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumstudio.FindMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		655508972D771CBD0046A34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 655508732D771CBC0046A34E /* FindMe */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindMe/Preview Content\"";
+				DEVELOPMENT_TEAM = XB2LCH63G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindMe/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Questa app utilizza la tua posizione per mostrarti sulla mappa ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumstudio.FindMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		655508992D771CBD0046A34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 655508732D771CBC0046A34E /* FindMe */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.xcconfig;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumstudio.FindMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindMe";
+			};
+			name = Debug;
+		};
+		6555089A2D771CBD0046A34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 655508732D771CBC0046A34E /* FindMe */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.xcconfig;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumstudio.FindMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindMe";
+			};
+			name = Release;
+		};
+		6555089C2D771CBD0046A34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumstudio.FindMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMe;
+			};
+			name = Debug;
+		};
+		6555089D2D771CBD0046A34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumstudio.FindMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6555086C2D771CBC0046A34E /* Build configuration list for PBXProject "FindMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655508932D771CBD0046A34E /* Debug */,
+				655508942D771CBD0046A34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655508952D771CBD0046A34E /* Build configuration list for PBXNativeTarget "FindMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655508962D771CBD0046A34E /* Debug */,
+				655508972D771CBD0046A34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655508982D771CBD0046A34E /* Build configuration list for PBXNativeTarget "FindMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655508992D771CBD0046A34E /* Debug */,
+				6555089A2D771CBD0046A34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6555089B2D771CBD0046A34E /* Build configuration list for PBXNativeTarget "FindMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6555089C2D771CBD0046A34E /* Debug */,
+				6555089D2D771CBD0046A34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		650B143E2D7859A200F647BC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		650B14402D785B3C00F647BC /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 650B143E2D7859A200F647BC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		650B14462D785B4600F647BC /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 650B143E2D7859A200F647BC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 655508692D771CBC0046A34E /* Project object */;
+}
