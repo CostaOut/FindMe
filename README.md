@@ -1,6 +1,6 @@
 # 🗺️ FindMe – Localizzazione e Meteo in Tempo Reale 🌍
 
-FindMe è un'app iOS che combina localizzazione avanzata con CoreLocation, API di meteo e un'interfaccia personalizzata per offrire un'esperienza fluida e intuitiva. 🎯
+FindMe è un'app iOS che combina localizzazione avanzata con CoreLocation, API di meteo. 🎯
 
 ## 🚀 Tecnologie utilizzate:
 
