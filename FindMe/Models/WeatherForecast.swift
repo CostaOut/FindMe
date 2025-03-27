@@ -18,6 +18,7 @@ struct CurrentWeather : Decodable {
     var wind_speed: Double
     var sunrise: Int
     var sunset: Int
+    var weather: [WeatherCondition]
 }
 
 struct DailyForecast: Decodable, Identifiable{

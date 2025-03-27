@@ -22,7 +22,7 @@ struct ContentView: View {
                                 .toolbarVisibility(.hidden, for: .tabBar)
                         }
                         Tab.init(value: .search) {
-                            Text("Search")
+                            SearchLocationView()
                                 .toolbarVisibility(.hidden, for: .tabBar)
                         }
                         Tab.init(value: .settings) {
@@ -88,4 +88,5 @@ extension UIView {
 
 #Preview {
     ContentView()
+        .environmentObject(LocationManager())
 }

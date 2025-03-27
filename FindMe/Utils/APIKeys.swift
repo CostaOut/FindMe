@@ -15,4 +15,12 @@ struct APIKeys {
         
         return key
     }()
+    
+    static let kitchenAPI: String = {
+        guard let key = Bundle.main.object(forInfoDictionaryKey: "WEATHER_API_KEY") as? String else {
+            fatalError("API Key missing! Be sure to configure it in the Secrets.xcconfig file")
+        }
+        
+        return key
+    }()
 }

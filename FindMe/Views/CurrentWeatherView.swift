@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let currentWeatherTest: CurrentWeather = CurrentWeather(temp: 12.0, humidity: 2, wind_speed: 0.2, sunrise: 1741154175, sunset: 1741194988)
+let currentWeatherTest: CurrentWeather = CurrentWeather(temp: 12.0, humidity: 2, wind_speed: 0.2, sunrise: 1741154175, sunset: 1741194988, weather: [WeatherCondition(description: "Ciao", icon: "1d")])
 
 struct CurrentWeatherView: View {
     var locationName: String
