@@ -47,6 +47,13 @@ struct SearchView: View {
                 WeatherInfoView(icon: "sunset", value: formatUnixTimestamp(weatherViewModel.currentWeater?.sunset ?? 0), measureUnit: "")
                 
             }
+            .padding(.bottom, 32)
+            
+            if let dailyWeather = weatherViewModel.dailyWeather {
+                DailyForecastView(dailyForecast: dailyWeather)
+            } else {
+                DailyForecastView(dailyForecast: fakeDailyForecast)
+            }
             
             Spacer()
         }
